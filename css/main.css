@@ -1,0 +1,37 @@
+h2 {
+    text-decoration: underline;
+}
+
+p {
+    clear: both;
+}
+
+figure {
+    float: left;
+}
+
+figcaption {
+    color: grey;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.article-image {
+    border: 3px solid #ddd;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded border */
+    padding: 2px;
+    /* Some padding */
+    width: 150px;
+    /* Set a small width */
+}
+
+footer {
+    border-top: 1px solid #000; /* Top border */
+    text-align: center; /* Center content */
+    font-style: italic; /* Italicized content */
+    font-size: 0.9em; /* Slightly smaller font size */
+    padding: 10px; /* Optional: Add some padding for spacing */
+}
