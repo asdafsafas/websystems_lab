@@ -1,4 +1,4 @@
-h2 {
+section h2 {
     text-decoration: underline;
 }
 
@@ -7,31 +7,30 @@ p {
 }
 
 figure {
-    float: left;
+    display: inline-block;
+    text-align: center;
 }
+
+    figure img {
+        border: double;
+        border-color: grey;
+        border-width: 5px;
+    }
 
 figcaption {
-    color: grey;
     font-style: italic;
-    text-align: center;
+    color: darkslategray;
 
 }
 
-.article-image {
-    border: 3px solid #ddd;
-    /* Gray border */
-    border-radius: 4px;
-    /* Rounded border */
-    padding: 2px;
-    /* Some padding */
-    width: 150px;
-    /* Set a small width */
+.img-popup {
+    height:10px;
 }
 
 footer {
-    border-top: 1px solid #000; /* Top border */
-    text-align: center; /* Center content */
-    font-style: italic; /* Italicized content */
-    font-size: 0.9em; /* Slightly smaller font size */
-    padding: 10px; /* Optional: Add some padding for spacing */
+    border-top: groove;
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 15px;
 }
